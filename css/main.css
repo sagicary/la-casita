@@ -1,0 +1,121 @@
+body{
+	background-color: lightblue;
+	margin: 0 auto;
+}
+
+.sol{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	background-image: url(http://i396.photobucket.com/albums/pp49/belu_jordison/Awesome%20faces/Z_Happy1.png);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+.techo{
+	border-bottom: 120px solid purple;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	height: 0;
+	width: 200px;
+	position: relative;
+	left: 600px;
+	top: 100px;
+}
+
+.casa{
+	width: 340px;
+	height: 200px;
+	background: red;
+	position: relative;
+	left: 600px;
+	top: 100px;
+	z-index: 2;
+}
+
+.chimenea{
+	width: 25px;
+	height: 55px;
+	background: red;
+	position: absolute;
+	top: 45px;
+	left: 180px;
+}
+
+.circulo{
+	width: 20px;
+	height: 20px;
+	background: gray;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+}
+.c1, .c2, .c3{
+	position: relative;
+	bottom: 30px;
+	left: 20px;
+}
+.c2{
+	position: relative;
+	bottom: 70px;
+	left: 40px;
+}
+.c3{
+	position: relative;
+	bottom: 110px;
+	left: 60px;
+}
+.puerta{
+	width: 100px;
+	height: 150px;
+	background: gray;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+.c4{
+	width: 20px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	top: 70px;
+	left: 70px;
+}
+.ventana{
+	width: 100px;
+	height: 100px;
+	background: purple;
+	position: relative;
+	left: 200px;
+	bottom: 100px;
+}
+.pasto{
+	background-color: green;
+	width: 100%;
+	height: 106px;
+	position: relative;
+	top: 100px;
+	background-size: cover;
+}
+.yy{
+	width: 96px;
+	height: 48px;
+	background: #eee;
+	border-color: red;
+	border-style: solid;
+	border-width: 2px 2px 50px 2px;
+	border-radius: 100%;
+	position: relative;
+}
+
+
